@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2aaf8984.css",
+    "main.js": "/portfolio/static/js/main.3f5d12ab.js",
+    "static/media/proj2hospital.png": "/portfolio/static/media/proj2hospital.07d17ea1e556c9ee256b.png",
+    "static/media/cv2.pdf": "/portfolio/static/media/cv2.cad40634128513e41baa.pdf",
+    "static/media/me3.png": "/portfolio/static/media/me3.d4f68ba744290d17e196.png",
+    "static/media/me7.png": "/portfolio/static/media/me7.b56a676483a8e9aae49a.png",
+    "static/media/proj1.png": "/portfolio/static/media/proj1.35b44bda0a911edbfd89.png",
+    "static/media/codeforces.png": "/portfolio/static/media/codeforces.278b1075e6878822ae6c.png",
+    "index.html": "/portfolio/index.html",
+    "main.2aaf8984.css.map": "/portfolio/static/css/main.2aaf8984.css.map",
+    "main.3f5d12ab.js.map": "/portfolio/static/js/main.3f5d12ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aaf8984.css",
+    "static/js/main.3f5d12ab.js"
+  ]
+}
