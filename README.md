@@ -7,14 +7,17 @@
 
 
 
+![p1](https://github.com/TechnoDiktator/portfolio/assets/99278069/cd8d7d2f-5923-43c8-bdd6-d2e95a78f9bc)
 
 
 
 
 
+![p2](https://github.com/TechnoDiktator/portfolio/assets/99278069/384d367b-d03d-4b8d-8a70-8114fbc00afd)
 
 
 
+![p3](https://github.com/TechnoDiktator/portfolio/assets/99278069/0ed93fb0-c2be-4d1d-b893-411a919e4759)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
