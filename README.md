@@ -1,4 +1,21 @@
+
 # Getting Started with Create React App
+# This is a responsive protfolio website i created using React.js
+
+## SNAPS
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
