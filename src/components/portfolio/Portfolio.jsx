@@ -3,7 +3,10 @@ import React from 'react'
 import IMG1 from '../../assets/proj1.png'
 import IMG2 from '../../assets/proj2hospital.png'
 import IMG3 from '../../assets/project-sample.png'
-import IMG4 from '../../assets/project-sample.png'
+import IMG4 from '../../assets/shopit.png'
+import IMG5 from '../../assets/todo.png'
+import IMG6 from '../../assets/flappy.png'
+import IMG7 from '../../assets/50p.png'
 
 
 
@@ -46,11 +49,66 @@ const data = [
     id: 4,
     image : IMG4 , 
     title:'Python Django Project',
-    title2:'Coming Soon',
-    github : 'https://github.com/TechnoDiktator/Resume_Projects/tree/main/',
+    title2:'DJango Ecommerce Project',
+    github : 'https://github.com/TechnoDiktator/Django-Ecommerce-Project',
     demo: ''
 
   },
+
+  {
+    id: 5,
+    image : IMG5 , 
+    title:'Python Django Project',
+    title2:'DJango ToDo List Project',
+    github : 'https://github.com/TechnoDiktator/TODO-APP',
+    demo: ''
+
+  },
+
+
+
+  {
+    id: 6,
+    image : IMG6 , 
+    title:'Game Developement',
+    title2:'Flappy Bird Clone',
+    github : 'https://github.com/TechnoDiktator/FlappyBird-Game-Clone-Project',
+    demo: ''
+
+  },
+
+
+  {
+    id: 7,
+    image : IMG7 , 
+    title:'Front End Marathon',
+    title2:'50 frontend projects in 20 days',
+    github : 'https://github.com/TechnoDiktator/50-Days-50-Frontend-Projects',
+    demo: ''
+
+  },
+
+  {
+    id: 8,
+    image : IMG3 , 
+    title:'SpringBoot Microservices Project',
+    title2:'Moview Theatre Microservices App (coming soon)',
+    github : 'https://github.com/TechnoDiktator',
+    demo: ''
+
+  },
+
+  {
+    id: 9,
+    image : IMG3 , 
+    title:'SpringBoot FullStack Project',
+    title2:'Coming soon',
+    github : 'https://github.com/TechnoDiktator',
+    demo: ''
+
+  },
+
+
 ]
 
 
