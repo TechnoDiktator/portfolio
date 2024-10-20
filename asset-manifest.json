@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2aaf8984.css",
-    "main.js": "/portfolio/static/js/main.6b392868.js",
+    "main.css": "/portfolio/static/css/main.cf8f2125.css",
+    "main.js": "/portfolio/static/js/main.ded59ecc.js",
     "static/media/50p.png": "/portfolio/static/media/50p.0546265d6c138af3e59d.png",
     "static/media/proj2hospital.png": "/portfolio/static/media/proj2hospital.07d17ea1e556c9ee256b.png",
     "static/media/shopit.png": "/portfolio/static/media/shopit.44de2c463fbdb54ef1f8.png",
-    "static/media/cv2.pdf": "/portfolio/static/media/cv2.cad40634128513e41baa.pdf",
+    "static/media/cv3.pdf": "/portfolio/static/media/cv3.9791e334ef7755dbac7c.pdf",
     "static/media/me3.png": "/portfolio/static/media/me3.d4f68ba744290d17e196.png",
     "static/media/me7.png": "/portfolio/static/media/me7.b56a676483a8e9aae49a.png",
     "static/media/todo.png": "/portfolio/static/media/todo.49b839579a2f052d3ffd.png",
@@ -13,11 +13,11 @@
     "static/media/proj1.png": "/portfolio/static/media/proj1.35b44bda0a911edbfd89.png",
     "static/media/codeforces.png": "/portfolio/static/media/codeforces.278b1075e6878822ae6c.png",
     "index.html": "/portfolio/index.html",
-    "main.2aaf8984.css.map": "/portfolio/static/css/main.2aaf8984.css.map",
-    "main.6b392868.js.map": "/portfolio/static/js/main.6b392868.js.map"
+    "main.cf8f2125.css.map": "/portfolio/static/css/main.cf8f2125.css.map",
+    "main.ded59ecc.js.map": "/portfolio/static/js/main.ded59ecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aaf8984.css",
-    "static/js/main.6b392868.js"
+    "static/css/main.cf8f2125.css",
+    "static/js/main.ded59ecc.js"
   ]
 }
