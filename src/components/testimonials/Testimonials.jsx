@@ -7,6 +7,7 @@ import AVTR4 from '../../assets/codeforces.png'
 
 import { Pagination ,Nagi , Navigation } from 'swiper';
 
+// Import Swiper components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -51,49 +52,35 @@ const data = [
 
 
 
-
-
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Slide to tee more</h5>
+      <h5>Slide to See More</h5>
       <h2>Profiles</h2>
-      
-      <Swiper className='container testimonials__container'
-            modules={[Pagination]}
-            spaceBetween={40}
-            slidesPerView={1}
-            pagination={{ clickable: true }}>
-        
 
-
-        {data.map(({avatar , name ,link ,  review} , index)=>{
-          
-          return(
-              <SwiperSlide key={index} className='testimonials'>
-              <div className="client__avatar">
-                <img src={avatar} alt ='avatar'></img>
-              </div>
-              <h3 className='client__name'><a href= {link}  target='_blank'>{name}</a></h3>
-              <small className='client__review'>
-                  {review}
-              </small>
-            </SwiperSlide>
-          )
-
-
-        } 
-        )}
-
-
-
+      <Swiper
+        className='container testimonials__container'
+        modules={[Pagination, Navigation]}  // Include Navigation
+        spaceBetween={100}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        navigation  // Enable Navigation
+      >
+        {data.map(({ avatar, name, link, review }, index) => (
+          <SwiperSlide key={index} className='testimonials'>
+            <div className='client__avatar'>
+              <img src={avatar} alt='Avatar' />
+            </div>
+            <h3 className='client__name'>
+              <a href={link} target='_blank' rel='noopener noreferrer'>{name}</a>
+            </h3>
+            <small className='client__review'>{review}</small>
+          </SwiperSlide>
+        ))}
       </Swiper>
-    
-    
     </section>
-  )
-}
-
+  );
+};
 export default Testimonials
 
 

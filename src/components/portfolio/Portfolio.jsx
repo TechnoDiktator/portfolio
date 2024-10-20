@@ -18,7 +18,7 @@ const data = [
     image : IMG1 , 
     title:'SpringBoot API Project', 
     title2:'Blogging App RestFul API',
-    github : 'https://github.com/TechnoDiktator/Resume_Projects/tree/main/BlogApi%20Source%20Code',
+    github : 'https://github.com/TechnoDiktator/SpringBootBloggingAPIRESTFUL',
     demo: 'http://65.1.105.145/swagger-ui/index.html'
 
   },

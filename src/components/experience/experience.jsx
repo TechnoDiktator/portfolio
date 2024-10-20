@@ -43,6 +43,16 @@ const experience = () => {
 
               </article>
 
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                
+                <div>                
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediate</small></div>
+
+              </article>
+
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 
@@ -66,7 +76,25 @@ const experience = () => {
 
         <div className='experience__backend'>
         <h3>Backend Developement</h3>
+
             <div className='experience__content'>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                
+                <div><h4>Golang</h4>
+                <small className='text-light'>Advanced</small></div>
+                
+
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                
+                <div><h4>Gin</h4>
+                <small className='text-light'>Advanced</small></div>
+                
+
+              </article>
+
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 
@@ -80,7 +108,15 @@ const experience = () => {
                 <BsPatchCheckFill className='experience__details-icon'/>
                 
                 <div>                
-                <h4>Python Core</h4>
+                <h4>Python</h4>
+                <small className='text-light'>Advanced</small></div>
+
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                
+                <div>                
+                <h4>Django Framework</h4>
                 <small className='text-light'>Advanced</small></div>
 
               </article>
@@ -89,16 +125,12 @@ const experience = () => {
                 <BsPatchCheckFill className='experience__details-icon'/>
                 
                 <div>                
-                <h4>JSP SERVLET</h4>
+                <h4>jsp servlet</h4>
                 <small className='text-light'>Intermediate</small></div>
 
               </article>
 
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div><h4>MySQL (JDBC , Hibernate)</h4>
-                <small className='text-light'>Intermediate</small></div>           
-              </article>
+
 
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
@@ -111,11 +143,26 @@ const experience = () => {
 
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
+                <div><h4>MySQL (JDBC , Hibernate)</h4>
+                <small className='text-light'>Intermediate</small></div>           
+              </article>
+
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
                 <h4>CS Fundamentals (DSA , OOPS , CN , OS)</h4>
                 <small className='text-light'>Advanced</small>
                 </div>
                 </article>
+
+
+                <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div><h4>Tools and Dependencies (Redis , Celery , RabbitMQ ,MQTT , Graphql , Postgres , Hasura , Signoz , Prometheus)</h4>
+                <small className='text-light'>Intermediate</small></div>           
+                </article>
+
 
             </div>
 

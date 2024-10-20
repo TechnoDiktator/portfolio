@@ -6,9 +6,86 @@ import {BiCheck} from 'react-icons/bi'
 function Services() {
   return (
     <section id='services'>
-
-      <h5>Academics - Experience - Certificates</h5>
+      <h5>Experience - Academics - Certificates</h5>
       <h2>My Journey</h2>
+
+
+      <div className='container services__container'>
+        {/* EXPERIENCE */}
+
+
+
+        <article className='service'>
+          <div className='service_head'>
+            <h3>ZS Associates - Decision Analytics Associate</h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>Duration - June 2021 to March 2022</li>
+            <li>Department - Data Analytics</li>
+            <li>Description</li>
+            <ol className='service_list-items'>
+              <li>1. Developed data analytics dashboards using Python, Pandas, and Power BI to forecast pharmaceutical sales trends.</li>
+              <li>2. Provided decision-making support for a major biopharmaceutical client (JPSEN).</li>
+              <li>3. Built predictive models and visualized insights to enhance business strategy.</li>
+              <li>4. Helped streamline reporting and cross-functional collaboration through data-driven insights.</li>
+            </ol>
+          </ul>
+        </article>
+
+
+        <article className='service'>
+          <div className='service_head'>
+            <h3>StockFusion Private Limited - Software Engineer (Fullstack)</h3>
+          </div>
+          
+          <ul className='service_list'>
+            <li>Duration - July 2023 to Present</li>
+            <li>Department - Software Development</li>
+            <li>Description</li>
+            <ol className='service_list-items'>
+              <li>1. Developed and maintained asynchronous proxy servers using Django, Redis, and PostgreSQL for parking systems.</li>
+              <li>2. Refactored synchronous code to asynchronous, reducing processing time by 40%.</li>
+              <li>3. Scaled transactions by 100%, handling up to 400 sites with microservices.</li>
+              <li>4. Automated system health checks using Ansible and OpenTelemetry, reducing downtime by 50%.</li>
+              <li>5. Built an IoT-based RFID parking system using Golang, RabbitMQ, and SQL, reducing hardware cost ,  deployment time by 400%.</li>
+              <li>6. Developed MQTT-based messaging acknowledgment to enhance device communication across All sensors at a parking site.</li>
+              <li>7. Created real-time dashboards and analytics using GraphQL, React, and Hasura for monitoring and reporting.</li>
+              <li>8. Provided technical support and wrote SOPs to ensure smooth deployments.</li>
+            </ol>
+          </ul>
+        </article>
+
+
+        <article className='service'>
+          <div className='service_head'>
+            <h3>Cargill India - Technical Management Trainee</h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>Duration - September 2020 to June 2021</li>
+            <li>Department - Project Management</li>
+            <li>Description</li>
+            <ol className='service_list-items'>
+              <li>1. Worked on a Brownfield project – Interesterification plant installation and commissioning.</li>
+              <li>2. Managed on-site operations and ensured compliance with safety standards.</li>
+              <li>3. Handled inventory management to ensure smooth workflow.</li>
+              <li>4. Prepared safety and incident reports to maintain compliance.</li>
+              <li>5. Participated in design discussions and provided progress reports to stakeholders.</li>
+              <li>6. Supervised contractor induction and ensured safe operations inside the plant.</li>
+            </ol>
+          </ul>
+        </article>
+
+
+        {/*END OF EXPERIENCE*/}
+
+
+      </div>
+      
+      <br />
+      <br />
+      <br />
 
       <div className='container services__container'>
         
@@ -58,53 +135,6 @@ function Services() {
         {/*END OF ACADEMICS*/}
 
 
-        {/* EXPERIENCE */}
-        <article className='service'>
-          <div className='service_head'>
-            <h3>Experience</h3>
-          </div>
-        
-          <ul className='service_list'>
-            <li>
-
-              <p className='service_decription' >Cargill India -  Technical Management Trainee</p>
-              <li>Duration  -  September 2020  to June 2021</li>
-              <li>Department - Project Management</li>
-              <li>Description</li>
-                <ol className='service_list-items'>
-                  <li>1. Worked on Brown Field Project - Interesterification plant</li>
-                  <li>2. Site Management</li>
-                  <li>3. Inventory Management</li>
-                  <li>4. Preparing Safety and Incidence Reports </li>
-                  <li>5. Design Discussion and Progress Reporting</li>
-                  <li>6. Induction of contrators inside the plant</li>
-                </ol>
-
-              
-
-            </li>
-            <li>
-             
-              <p className='service_decription'>ZS Associates - Decision Analytics Associate</p>
-              <li>Duration  -  June 2021  to March 2022</li>
-              <li>Department - Forecasting Analytics</li>
-              <li>Description</li>
-                <ol className='service_list-items'>
-                  <li>1. Worked on 4 inline brands -Somatuline , Decapeptyl , Dysport , Cabometyx   </li>
-                  <li>2. Built forecasting models using Ms- Excel , Excel VBA , Python  for backend coding and analytics</li>
-                  <li>3. Upgraded Existing Models</li>
-                  <li>4. Performed Ad-Hoc tasks such as data visualisation and data analysis </li>
-                  <li>5. Making Illustrative Presentation for client</li>
-                  <li>6. Gave KTs to newly inducted team members on the existing models</li>
-                   
-                </ol>
-
-            </li>
-
-          </ul>
-        </article>
-        {/*END OF EXPERIENCE*/}
-
         {/* CERTIFICATES */}
         <article className='service'>
           <div className='service_head'>
@@ -120,11 +150,12 @@ function Services() {
               <li>Description</li>
                 <ol className='service_list-items'>
                   <li>1. Course Work - OOPS , DSA , Java Core , Python Core , RDBMS , OS , CN </li>
-                  <li>2. Solved more than 590 DSA problems on the platform</li>
-                  <li>3. Solved more than 200 DSA problems on LeetCode</li>
-                  <li>4. Solved more than 250 DSA problems on GeeksForGeeks</li>
-                  <li>5. Learned Fundamentals of Spring Framework</li>
-                  <li>6. Passed Expert Mock interviews on Adnanced DSA and CS Fundamentals taken by Industry Experts</li>
+                  <li>2. Certificates of expertise in SpringBoot , Systemdesign , DSA and OOPS from scaler academy</li>
+                  <li>3. Solved more than 590 DSA problems on the platform</li>
+                  <li>4. Solved more than 200 DSA problems on LeetCode</li>
+                  <li>5. Solved more than 250 DSA problems on GeeksForGeeks</li>
+                  <li>6. Learned Fundamentals of Spring Framework</li>
+                  <li>7. Passed Expert Mock interviews on Adnanced DSA and CS Fundamentals taken by Industry Experts</li>
                 </ol>
 
             </li>
@@ -134,8 +165,12 @@ function Services() {
         {/*END OF CERTIFICATES*/}
 
 
-
       </div>
+
+      <br />
+      <br />
+
+
 
     </section>
   )

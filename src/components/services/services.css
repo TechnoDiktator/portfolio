@@ -1,108 +1,91 @@
-.services__container{
+/* Grid Layout Container */
+.services__container {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     gap: 2rem;
-
+    justify-content: center; /* Centers the grid horizontally */
+    align-items: stretch; /* Ensures all items stretch to the same height */
+    width: 90%;
+    margin: 0 auto; /* Centers the grid on the page */
 }
 
-.service{
+/* Each Service Article */
+.service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--color-primary);
-    height: fit-content;
+    height: 100%; /* Ensures each article takes full height */
+    display: flex;
+    flex-direction: column; /* Aligns content vertically */
+    justify-content: space-between; /* Ensures even spacing between content */
     transition: var(--transition);
-
-
+    padding-bottom: 1rem;
 }
 
-
-
-.service:hover{
-
-    background: transparent;
-    border-color: var(--color-primary-varient);
-    cursor: default;
-
-
-}
-
-.service_head{
-
-    background:var(--color-primary);
+/* Service Head Styling */
+.service_head {
+    background: var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
-
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers the heading text */
 }
 
-
-.service_decription{
+/* Description Styling */
+.service_decription {
     color: var(--color-primary);
 }
 
-
-.service_head h3{
-
+/* Service Head Text */
+.service_head h3 {
     color: var(--color-bg);
     font-size: 1.5rem;
 }
 
-.service_list{
-    padding: 2rem;   
+/* Service List */
+.service_list {
+    padding: 2rem;
+    flex-grow: 1; /* Ensures this section stretches to fill available space */
 }
 
-
-
-
-
-
-
-.service_list-icon{
-    
-    color: var(--color-primary);
-    margin-top: 4px;
-
-}
-
-.service_list p{
-    font-size: 1.1rem;
-}
-
-
-.service_list-items li{
+/* List Item Styling */
+.service_list-items li {
     font-size: 0.9rem;
     padding: 0.1rem;
     margin-top: 1rem;
-    margin-bottom:1rem;
-
+    margin-bottom: 1rem;
 }
 
+/* Service List Icons */
+.service_list-icon {
+    color: var(--color-primary);
+    margin-top: 4px;
+}
 
+/* Paragraph Styling Inside List */
+.service_list p {
+    font-size: 1.1rem;
+}
 
-/*-------------------------------------------------------------MEDIA QUERIES(SMALL)---------------------------------------------------------*/
+/* Hover Effect */
+.service:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
 
-@media screen and (max-width:1024px){
-
-    .services__container{
+/*------------------------ MEDIA QUERIES (SMALL) ------------------------*/
+@media screen and (max-width: 1024px) {
+    .services__container {
         grid-template-columns: 1fr 1fr;
-        gap:2rem;
-
-    }
-
-    .service{
-        height: auto;
+        gap: 2rem;
     }
 }
 
-
-
-/*-----------------------------MEDIA QUERIES (Medium DEVICES)--------------------------*/
-
-@media screen and (max-width:600px) {
-
-    .services__container{
+/*------------------------ MEDIA QUERIES (MOBILE) ------------------------*/
+@media screen and (max-width: 600px) {
+    .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-
 }
