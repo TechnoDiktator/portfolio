@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cf8f2125.css",
-    "main.js": "/portfolio/static/js/main.ded59ecc.js",
+    "main.js": "/portfolio/static/js/main.862f28cf.js",
     "static/media/50p.png": "/portfolio/static/media/50p.0546265d6c138af3e59d.png",
     "static/media/proj2hospital.png": "/portfolio/static/media/proj2hospital.07d17ea1e556c9ee256b.png",
     "static/media/shopit.png": "/portfolio/static/media/shopit.44de2c463fbdb54ef1f8.png",
@@ -14,10 +14,10 @@
     "static/media/codeforces.png": "/portfolio/static/media/codeforces.278b1075e6878822ae6c.png",
     "index.html": "/portfolio/index.html",
     "main.cf8f2125.css.map": "/portfolio/static/css/main.cf8f2125.css.map",
-    "main.ded59ecc.js.map": "/portfolio/static/js/main.ded59ecc.js.map"
+    "main.862f28cf.js.map": "/portfolio/static/js/main.862f28cf.js.map"
   },
   "entrypoints": [
     "static/css/main.cf8f2125.css",
-    "static/js/main.ded59ecc.js"
+    "static/js/main.862f28cf.js"
   ]
 }
